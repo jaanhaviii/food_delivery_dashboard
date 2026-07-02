@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.title("Food Delivery Analytics Dashboard")
 st.write("Analyze food delivery data using interactive charts.")
 
-df = pd.read_csv(r"C:\Users\doma9235\Downloads\food_delivery_dataset.csv")
+df = pd.read_csv("food_delivery_dataset.csv")
 
 st.sidebar.header("Filters")
 
